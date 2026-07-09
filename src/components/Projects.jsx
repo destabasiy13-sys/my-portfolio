@@ -1,4 +1,4 @@
-const GITHUB_URL = 'https://github.com/destabasiy13-sys';
+const NEWS_DASHBOARD_REPO = 'https://github.com/destabasiy13-sys/personal-news-dashboard';
 
 function Projects() {
   return (
@@ -28,7 +28,7 @@ function Projects() {
                   <span className="badge bg-secondary me-1">MySQL</span>
                 </div>
                 <a
-                  href={GITHUB_URL}
+                  href={NEWS_DASHBOARD_REPO}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline-primary mt-auto"
