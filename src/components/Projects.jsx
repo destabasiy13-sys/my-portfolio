@@ -13,6 +13,17 @@ const PROJECTS = [
     tech: ['React', 'Node.js', 'Express', 'MySQL'],
     link: 'https://github.com/destabasiy13-sys/personal-news-dashboard',
   },
+  {
+    title: 'LifeCard — Digital Emergency Medical Card',
+    description:
+      'A digital emergency medical card: users fill out their medical profile ' +
+      'once and get a unique public link and QR code that anyone can scan to ' +
+      'view critical info instantly — no login required. Session-based auth, ' +
+      'server-generated QR codes, and per-user data isolation in MySQL.',
+    image: '/images/lifecard.png',
+    tech: ['React', 'Node.js', 'Express', 'MySQL'],
+    link: 'https://github.com/destabasiy13-sys/Lifecard',
+  },
 ];
 
 const MIN_CARDS = 3;
