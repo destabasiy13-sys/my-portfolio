@@ -23,6 +23,7 @@ const PROJECTS = [
     image: '/images/lifecard.png',
     tech: ['React', 'Node.js', 'Express', 'MySQL'],
     link: 'https://github.com/destabasiy13-sys/Lifecard',
+    demoLink: 'https://client-lovat-eta-13.vercel.app',
   },
 ];
 
@@ -52,14 +53,26 @@ function Projects() {
                       <span key={t} className="badge bg-secondary me-1">{t}</span>
                     ))}
                   </div>
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-outline-primary mt-auto"
-                  >
-                    View Code on GitHub
-                  </a>
+                  <div className="d-flex gap-2 mt-auto">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-outline-primary flex-fill"
+                    >
+                      View Code
+                    </a>
+                    {project.demoLink && (
+                      <a
+                        href={project.demoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary flex-fill"
+                      >
+                        Live Demo
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
