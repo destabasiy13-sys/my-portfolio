@@ -12,6 +12,7 @@ const PROJECTS = [
     image: '/images/news-dashboard.png',
     tech: ['React', 'Node.js', 'Express', 'MySQL'],
     link: 'https://github.com/destabasiy13-sys/personal-news-dashboard',
+    demoLink: 'https://news-dashboard-eight-eta.vercel.app',
   },
   {
     title: 'LifeCard — Digital Emergency Medical Card',
