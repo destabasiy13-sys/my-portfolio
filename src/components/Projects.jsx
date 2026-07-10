@@ -26,6 +26,17 @@ const PROJECTS = [
     link: 'https://github.com/destabasiy13-sys/Lifecard',
     demoLink: 'https://client-lovat-eta-13.vercel.app',
   },
+  {
+    title: 'Carbon Footprint Tracker',
+    description:
+      'Log daily transport, energy, and food activities and see them converted ' +
+      'into an estimated CO2e footprint, with trend and category-breakdown ' +
+      'charts and goal tracking (target vs. actual reduction over time).',
+    image: '/images/carbon-tracker.png',
+    tech: ['React', 'Node.js', 'Express', 'MySQL', 'Recharts'],
+    link: 'https://github.com/destabasiy13-sys/carbon-footprint-tracker',
+    demoLink: 'https://carbon-tracker-ebon.vercel.app',
+  },
 ];
 
 const MIN_CARDS = 3;
