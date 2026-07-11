@@ -4,27 +4,17 @@ function About() {
       <div className="container" style={{ maxWidth: '700px' }}>
         <h2 className="mb-4 text-center">About Me</h2>
         <p>
-          I'm a junior full-stack developer who builds complete, deployed
-          products rather than local prototypes. Working primarily with
-          React, Node.js, Express, and MySQL, I've shipped four full-stack
-          applications: a news aggregator with scheduled third-party data
-          ingestion and search/filtering, an emergency medical information
-          system built around secure, token-based public sharing, a
-          data-visualization tool that aggregates and charts time-series
-          activity data against personal goals, and an e-commerce storefront
-          with real payment processing, verified server-side rather than
-          trusted from the client.
+          I'm a junior full-stack developer specializing in React, Node.js,
+          Express, and MySQL. I've designed, built, and deployed four
+          full-stack applications spanning authentication, real payment
+          processing, third-party API integration, and data visualization —
+          each fully live and functional.
         </p>
         <p>
-          I care about the full lifecycle of a feature — database schema
-          design, authentication and security, and production deployment —
-          not just getting code to run locally. Every project linked below is
-          live and fully functional, not just a repository.
-        </p>
-        <p>
-          I'm currently looking for an internship or entry-level remote role
-          where I can keep building, learning, and contributing to real
-          products.
+          I focus on the complete lifecycle of a feature: database design,
+          security, and production deployment. I'm currently seeking an
+          internship or entry-level remote role where I can keep building and
+          contributing to real products.
         </p>
       </div>
     </section>
