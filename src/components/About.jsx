@@ -6,12 +6,14 @@ function About() {
         <p>
           I'm a junior full-stack developer who builds complete, deployed
           products rather than local prototypes. Working primarily with
-          React, Node.js, Express, and MySQL, I've shipped three full-stack
+          React, Node.js, Express, and MySQL, I've shipped four full-stack
           applications: a news aggregator with scheduled third-party data
           ingestion and search/filtering, an emergency medical information
-          system built around secure, token-based public sharing, and a
+          system built around secure, token-based public sharing, a
           data-visualization tool that aggregates and charts time-series
-          activity data against personal goals.
+          activity data against personal goals, and an e-commerce storefront
+          with real payment processing, verified server-side rather than
+          trusted from the client.
         </p>
         <p>
           I care about the full lifecycle of a feature — database schema
