@@ -37,6 +37,17 @@ const PROJECTS = [
     link: 'https://github.com/destabasiy13-sys/carbon-footprint-tracker',
     demoLink: 'https://carbon-tracker-ebon.vercel.app',
   },
+  {
+    title: 'MyMart',
+    description:
+      'An electronics storefront with a real Stripe checkout (test mode), ' +
+      'server-verified via webhook rather than trusted from the client, plus ' +
+      'an admin dashboard for product/inventory management and order fulfillment.',
+    image: '/images/mymart.png',
+    tech: ['React', 'Node.js', 'Express', 'MySQL', 'Stripe'],
+    link: 'https://github.com/destabasiy13-sys/mymart',
+    demoLink: 'https://mymart-taupe.vercel.app',
+  },
 ];
 
 const MIN_CARDS = 3;
